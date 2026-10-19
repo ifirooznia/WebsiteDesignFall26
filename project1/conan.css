@@ -1,0 +1,340 @@
+.beau-rivage-regular {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  font-style: normal;}
+
+.passions-conflict-regular {
+  font-family: "Passions Conflict", cursive;
+  font-weight: 400;
+  font-style: normal;}
+
+.felipa-regular {
+  font-family: "Felipa", serif;
+  font-weight: 400;
+  font-style: normal;}
+
+  .tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dynalight-regular {
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-upright-regular {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  font-style: normal;}
+
+.cormorant-upright-medium {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-style: normal;}
+
+.cormorant-upright-bold {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  font-style: normal;}
+
+.oregano-regular {
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oregano-regular-italic {
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+html{scroll-behavior: smooth;}
+
+#opener{
+  background-image: url(IMAGES/stars.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%}
+
+li{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(159, 159, 162);
+    padding: 10px;}
+
+li a {
+    color: rgb(135, 29, 10);
+    text-transform: uppercase;
+    text-decoration: none;}
+
+li a:visited{
+    color: rgb(240, 206, 39);}
+
+h1 {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    z-index: 20;
+    padding-top: 0%;
+    padding-bottom: 0;
+    margin:25px 0 10px 0;}
+
+h2 {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    z-index: 20;
+    margin: 0 0 3px 0;
+    padding-top: 0;
+  }
+
+h3{ 
+  font-size: 65px;
+  color: rgb(246, 52, 52);
+  text-align: center;
+  padding-top: 370px;}
+
+  .bone{
+    background-image: url(IMAGES/Logo.webp);
+    width: 600px;
+    height: 600px;
+    background-size: contain;
+    position: absolute;
+    bottom: -30px;
+    right: -70px;
+    z-index: 25;}
+
+  .hat {
+    background-image: url(IMAGES/sailorhat.webp);
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    z-index: 7;}
+
+.stamp{
+ background-image: url(IMAGES/stamp.webp);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    z-index: 7;}
+
+#aboutsection {
+background-image: url(IMAGES/moon.jpg);
+background-size:cover;
+padding: 200px 0 200px 0;}
+
+.about {
+display: flex;
+width: 100%;
+height: 50vh;}
+
+.div14 { 
+  font-size: 30px; 
+  color:white; 
+  padding: 70px;
+  width: 55%;}
+
+.div15 { 
+  background-image: url(IMAGES/albumcover.jpeg); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 45%;}
+
+p1{
+  color: white;
+  font-size: 30px;
+}
+
+#lyrics{
+ background-image: url(IMAGES/darkclouds.jpg);
+background-size: cover;}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 300px;
+  grid-row-gap: 0px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 150px 0 150px 0;
+  text-align: center;
+}
+
+.div1 { 
+  grid-area: 1 / 1 / 2 / 3;}
+
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+.div4 { grid-area: 3 / 1 / 4 / 2; }
+.div5 { grid-area: 3 / 2 / 4 / 3; }
+.div6 { grid-area: 4 / 1 / 5 / 2; }
+.div7 { grid-area: 4 / 2 / 5 / 3; }
+.div8 { grid-area: 5 / 1 / 6 / 2; }
+.div9 { grid-area: 5 / 2 / 6 / 3; }
+.div10 { grid-area: 6 / 1 / 7 / 2; }
+.div11 { grid-area: 6 / 2 / 7 / 3; }
+.div12 { grid-area: 7 / 1 / 8 / 2; }
+.div13 { grid-area: 7 / 2 / 8 / 3; }
+
+h5 {
+  font-size: 40px;
+  color: rgb(246, 52, 52);}
+
+h4{font-size: 50px;
+    color:rgb(240, 206, 39);
+    padding-top: 100px;} 
+
+#symbols{
+  background-image: url(IMAGES/stars.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+p2{font-size: 23px; color: white;}
+
+h6{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 60px;
+  color: rgb(246, 52, 52);
+}
+
+.cat {
+    background-image: url(IMAGES/catpin.webp);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    animation: rotatepin 4s 0s infinite alternate;}
+
+.name{
+    background-image: url(IMAGES/name.png);
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: -150px;
+    right: 50px;
+    z-index: 7;
+    transition: all 2s;}
+
+  .name:hover {
+    transform: translate(-60px,0);
+    transition: all 2s;}
+   
+
+
+  .sailor {
+     background-image: url(IMAGES/sailorhat.webp);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 10px;
+    left: 150px;
+    z-index: 7;
+    transition: all 2s;}
+
+  .sailor:hover {
+   transform: scale(2,2) translate(20px,0);
+   transition: all 2s;}
+
+.cartoon {
+     background-image: url(IMAGES/wishbone.webp);
+    width: 320px;
+    height: 320px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50px;
+    right: 50px;
+    z-index: 7;
+    transition: all 3s;}
+
+.cartoon:hover {
+  transform: rotate(90deg);
+  transition: all 3s;}
+
+.eleven {
+background-image: url(IMAGES/11.webp);
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 60px;
+    right: 600px;
+    z-index: 7;
+    transition: all 2s;}
+
+.eleven:hover {
+  transform: translate(0,-40px);
+  transition: all 2s;}
+
+#videos{
+  background-image: url(IMAGES/waves.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+ @keyframes rotatepin {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); }
+}
+
+iframe{
+    margin-top: 120px;
+    margin-left: 450px;
+}
+
+.caption {
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
